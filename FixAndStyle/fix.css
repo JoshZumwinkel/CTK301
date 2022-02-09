@@ -1,0 +1,59 @@
+head {
+  background-color:powderblue;
+}
+
+body{
+
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+
+}
+p{
+
+}
+h1  {
+   color: #FFFFFF;
+   background-color:powderblue;
+}
+
+h2 {
+  color:blue;
+}
+h3 {
+  background-color:yellow;">
+
+}
+p4 {
+  color:red;
+}
+h4 {
+  background-color:green;">
+}
+p5 {
+  background-color:green;
+}
+footer{
+  background-color: yellow;
+}
+<h5>
+  color:red;
+.turngreen {
+  color: green;
+  background-color: yellow;
