@@ -1,0 +1,67 @@
+head {
+  background-color:powderblue;
+}
+body {
+  background-image: url(images2/abstract.png);
+}
+.customtext {
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.imgbox {
+  border: 25px solid #000000;
+  padding: 20px
+}
+h1 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 36px;
+  color:orange;
+
+
+}
+h2 {
+  font-weight: normal;
+  color:orange;
+
+
+}
+h3 {
+  font-weight: normal;
+  color:orange;
+
+}
+h4 {
+  font-weight: normal;
+  color:orange;
+
+
+}
+
+h5 {
+  font-weight: normal;
+  color:orange;
+
+
+}
+
+a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
