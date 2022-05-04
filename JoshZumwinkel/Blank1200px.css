@@ -1,8 +1,9 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     box-sizing: border-box;
 }
+
 
 header{
 
@@ -15,6 +16,9 @@ nav{
   min-height: 8vh;
     background-color: #3d3d3d;
   font-family: 'Encode Sans', sans-serif;
+  resize: none;
+  top: 0
+  position:fixed;
 
 }
 .navigation{
@@ -22,6 +26,7 @@ nav{
   letter-spacing: 5px;
   font-size: 20px;
 top: 50%;
+
 }
 
 .nav-links{
@@ -40,6 +45,7 @@ list-style: none;
   font-weight: bold;
   font-size: 14px;
   top: 50%;
+    font-size:1vw
 }
 nav a {
   display: flex;
@@ -94,7 +100,8 @@ nav a:hover::before {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-
+resize: none;
+  font-size:1.7vw
 }
 
 
@@ -122,6 +129,8 @@ nav a:hover::before {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  resize: none;
+  font-size:1.7vw
 }
 
 .container{
@@ -216,15 +225,18 @@ letter-spacing: 7px;
   transform: translate(-50%, -50%);
   color: white;
 
+
 }
 
 #mygallery {
   text-align: center;
+
 }
+
 #mygallery img {
   align-items: center;
-    width:  300px;
-    height: 300px;
+    width:  200px;
+    height: 200px;
     object-fit: cover;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -234,6 +246,7 @@ padding: 20px;
 
 .music-container{
   align-items: center;
+
 }
 .music-container p{
   color:white;
@@ -246,29 +259,90 @@ padding: 20px;
     background-size: cover;
     position: relative;
     align-items: center;
-    margin: 50px;
-    margin-left: 470px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    box-shadow: 15px 15px 30px grey;
+    border: 10px solid #555;
+
+
+
 }
 
 .audioPlayer audio{
   position: absolute;
   bottom: 0;
   width: 100%
+
 }
 
 .audioPlayer2 {
     width: 300px;
     height: 300px;
-    background-image: url('redwater.jpg');
+    background-image: url('lights.png');
     background-size: cover;
     position: relative;
     align-items: center;
-    margin: 50px;
-    margin-left: 470px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    box-shadow: 15px 15px 30px grey;
+    border: 10px solid #555;
+
+
+
 }
 
 .audioPlayer2 audio{
   position: absolute;
   bottom: 0;
   width: 100%
+}
+
+.audioPlayer3 {
+    width: 300px;
+    height: 300px;
+    background-image: url('sun.jpg');
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    box-shadow: 15px 15px 30px grey;
+    border: 10px solid #555;
+
+
+}
+
+.audioPlayer3 audio{
+  position: absolute;
+  bottom: 0;
+  width: 100%
+}
+
+.audioPlayerr {
+    width: 300px;
+    height: 300px;
+    background-image: url('rain.jpg');
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    box-shadow: 15px 15px 30px grey;
+    border: 10px solid #555;
+}
+
+.audioPlayerr audio{
+  position: absolute;
+  bottom: 0;
+  width: 100%
+}
+.description {
+  font-family:sans-serif;
+    font-size: 20px;
+    margin: auto;
+    width: 50%;
+     text-align: center;
+
+
+
 }
