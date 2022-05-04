@@ -1,0 +1,348 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+
+header{
+
+}
+
+nav{
+
+  display: flex;
+  justify-content: space-around;
+  min-height: 8vh;
+    background-color: #3d3d3d;
+  font-family: 'Encode Sans', sans-serif;
+  resize: none;
+  top: 0
+  position:fixed;
+
+}
+.navigation{
+  color: white;
+  letter-spacing: 5px;
+  font-size: 20px;
+top: 50%;
+
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 60%
+}
+.nav-links li{
+list-style: none;
+
+}
+.nav-links a{
+  color: white;
+  text-decoration: none;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  top: 50%;
+    font-size:1vw
+}
+nav a {
+  display: flex;
+
+  position: relative;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+nav a:hover {
+  color: white;
+}
+
+nav a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+nav a:hover::before {
+  transform: scaleX(1);
+}
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url("clouds.png");
+    box-shadow: 15px 15px 30px grey;
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.herotext {
+  ext-decoration: underline 0.15em rgba(0, 0, 0, 0);
+  transition: text-decoration-color 300ms;
+  letter-spacing: 15px;
+  font-family:sans-serif;
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+resize: none;
+  font-size:1.7vw
+}
+
+
+.mainstuffhero{
+  margin-top: 40px;
+  margin-bottom: 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("grey.jpg");
+      box-shadow: 15px 15px 30px grey;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 0px;
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.mainstuff{
+  font-family: sans-serif;
+  letter-spacing: 6px;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  resize: none;
+  font-size:1.7vw
+}
+
+.container{
+  background: black;
+}
+.contrainer .heading{
+  font-size: 50px;
+  padding: 2rem 0;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+}
+.container .music-container{
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+.container .music-container .box{
+  height: 16rem;
+  width: 80%;
+  align-items: center;
+}
+.container .music-container .box .image{
+  height: 100%;
+  width: 25%;
+  align-items: center;
+}
+.container .music-container .box .image img{
+  height: 100%;
+  width: 100%;
+}
+footer{
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  width: 100%;
+  background-color:  #3d3d3d;
+  padding: 20px 0px;
+}
+.social-menu{
+display:flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+
+}
+
+.social-menu h3{
+font-style: 70px;
+letter-spacing: 8px;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0 3rem 0;
+
+}
+.socials li{
+  margin: 0 20px;
+}
+.socials a{
+color: white;
+letter-spacing: 7px;
+}
+
+
+.projectshero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url("clouds.png");
+    box-shadow: 15px 15px 30px grey;
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.projectsherotext {
+  ext-decoration: underline 0.15em rgba(0, 0, 0, 0);
+  transition: text-decoration-color 300ms;
+  letter-spacing: 15px;
+  font-family:sans-serif;
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+
+}
+
+#mygallery {
+  text-align: center;
+
+}
+
+#mygallery img {
+  align-items: center;
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 100px;
+    margin-bottom: 100px;
+padding: 20px;
+
+}
+
+.music-container{
+  align-items: center;
+
+}
+.music-container p{
+  color:white;
+}
+
+.audioPlayer {
+    width: 300px;
+    height: 300px;
+    background-image: url('bluewater.jpg');
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    box-shadow: 15px 15px 30px grey;
+    border: 10px solid #555;
+
+
+
+}
+
+.audioPlayer audio{
+  position: absolute;
+  bottom: 0;
+  width: 100%
+
+}
+
+.audioPlayer2 {
+    width: 300px;
+    height: 300px;
+    background-image: url('lights.png');
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    box-shadow: 15px 15px 30px grey;
+    border: 10px solid #555;
+
+
+
+}
+
+.audioPlayer2 audio{
+  position: absolute;
+  bottom: 0;
+  width: 100%
+}
+
+.audioPlayer3 {
+    width: 300px;
+    height: 300px;
+    background-image: url('sun.jpg');
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    box-shadow: 15px 15px 30px grey;
+    border: 10px solid #555;
+
+
+}
+
+.audioPlayer3 audio{
+  position: absolute;
+  bottom: 0;
+  width: 100%
+}
+
+.audioPlayerr {
+    width: 300px;
+    height: 300px;
+    background-image: url('rain.jpg');
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    box-shadow: 15px 15px 30px grey;
+    border: 10px solid #555;
+}
+
+.audioPlayerr audio{
+  position: absolute;
+  bottom: 0;
+  width: 100%
+}
+.description {
+  font-family:sans-serif;
+    font-size: 20px;
+    margin: auto;
+    width: 50%;
+     text-align: center;
+
+
+
+}
